@@ -497,8 +497,8 @@ nav.nav-scrolled .hamburger {
     }
 
     .hero-title {
-        font-size: 4rem;
-        /* Larger Title */
+        font-size: 3.2rem;
+        /* Adjusted for better mobile fit */
         margin-bottom: 1.5rem;
         text-align: center;
         width: 100%;
