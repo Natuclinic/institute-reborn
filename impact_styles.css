@@ -33,9 +33,18 @@
 }
 
 .impact-count-text {
-    font-size: 0.9rem;
-    color: var(--color-gray-500);
-    font-weight: 500;
+    font-size: 1.1rem;
+    color: #3b82f6;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.impact-count-text .stat-number {
+    display: inline !important;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
 }
 
 .impact-headline {
