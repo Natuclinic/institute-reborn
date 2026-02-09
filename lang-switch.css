@@ -1,0 +1,32 @@
+/* Default hide all lang elements inside the body */
+body [lang="pt"],
+body [lang="en"] {
+    display: none !important;
+}
+
+/* Show version based on HTML lang attribute */
+html[lang="pt"] body [lang="pt"],
+html[lang="pt"] body [lang="pt-BR"] {
+    display: block !important;
+}
+
+html[lang="en"] body [lang="en"] {
+    display: block !important;
+}
+
+/* Maintain inline for span elements */
+html[lang="pt"] body span[lang="pt"],
+html[lang="en"] body span[lang="en"] {
+    display: inline !important;
+}
+
+/* Maintain inline-block for links/anchors if needed */
+html[lang="pt"] a[lang="pt"],
+html[lang="en"] a[lang="en"] {
+    display: inline-block !important;
+}
+
+.text-content-wrapper {
+    display: contents;
+    /* Allows children to be controlled by lang */
+}
